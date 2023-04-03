@@ -1,16 +1,5 @@
-1. Napisz program, który narysuje kwadrat o zadanym boku (liczbie gwiazdek) oraz pusty w środku (też o zadanym boku). O parametry zapytaj w programie, sprawdzając ich poprawność. Przykładowy obraz dla zewnętrznego rozmiaru 10 i wewnętrznego 6.
-********** 
-********** 
-**      ** 
-**      ** 
-**      ** 
-**      ** 
-**      ** 
-**      ** 
-**      ** 
-**      ** 
-********** 
-**********
+1. Napisz program, który narysuje kwadrat o zadanym boku (liczbie gwiazdek) oraz pusty w środku (też o zadanym boku). O parametry zapytaj w programie, sprawdzając ich poprawność. 
+
 Uwaga: należy napisać dwie wersje programu. Pierwsza, do rysowania będzie używać manipulatorów std::setfill oraz set::setw (szczegóły patrz cppreference.com). Druga, do rysowania użyje nowe możliwości formatowania za pomocą std::format. Ponieważ druga opcja nie jest jeszcze obsługiwana przez kompilator, polecam program napisać i testować na godbolt.org (edytor w wersji trunk).
 
 2. Napisz program, który zapyta o dwa ciągi znaków oraz je porówna, nie zwracając uwagi na wielkość liter (tzn. żeby traktował literę A i a jako takie same). W tym programie proszę nie używać jeszcze typu std::string, tylko ciągi znaków na początku wpisać do odpowiednio pojemnej tablicy char.
